@@ -7,12 +7,11 @@ function App() {
   const [jobDescription, setJobDescription] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState({ type: '', text: '' }); // For custom alerts
+  const [message, setMessage] = useState({ type: '', text: '' }); 
 
-  // Function to show custom message
   const showMessage = (type, text) => {
     setMessage({ type, text });
-    setTimeout(() => setMessage({ type: '', text: '' }), 5000); // Hide after 5 seconds
+    setTimeout(() => setMessage({ type: '', text: '' }), 5000); 
   };
 
   const handleSubmit = async () => {
@@ -26,16 +25,14 @@ function App() {
     }
 
     setLoading(true);
-    setResult(null); // Clear previous results
-    setMessage({ type: '', text: '' }); // Clear previous messages
+    setResult(null); 
+    setMessage({ type: '', text: '' }); 
 
     const formData = new FormData();
     formData.append('resume', resume);
     formData.append('jobDescription', jobDescription);
 
     try {
-      // Ensure the URL matches your backend server's address and port
-      // It's explicitly set to http://localhost:5000/analyze
       const res = await axios.post('http://localhost:5000/analyze', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
@@ -45,13 +42,10 @@ function App() {
       console.error("Request failed:", err);
       let errorMessage = "Analysis failed. Please try again.";
       if (err.response && err.response.data && err.response.data.error) {
-        // If the error has a response from the server, use its error message
         errorMessage = `Server Error: ${err.response.data.error}`;
       } else if (err.request) {
-        // The request was made but no response was received (e.g., backend not running, CORS issue)
         errorMessage = "Could not connect to the backend server. Please ensure the backend is running at http://localhost:5000.";
       } else {
-        // Something else happened in setting up the request
         errorMessage = `Error: ${err.message}`;
       }
       showMessage('error', errorMessage);
@@ -67,7 +61,6 @@ function App() {
           Resume Optimizer <span className="text-purple-500">AI</span>
         </h1>
          
-        {/* Custom Message Box */}
         {message.text && (
           <div className={`p-3 mb-4 rounded-lg flex items-center gap-3 ${
             message.type === 'error' ? 'bg-red-100 text-red-700 border border-red-300' :
@@ -78,7 +71,6 @@ function App() {
           </div>
         )}
 
-        {/* Resume Upload */}
         <div className="mb-5">
           <label htmlFor="resume-upload" className="block text-gray-700 text-sm font-semibold mb-2">
             <FileUp className="inline-block w-4 h-4 mr-2 text-blue-500" /> Upload Your Resume (PDF)
@@ -95,7 +87,6 @@ function App() {
           )}
         </div>
 
-        {/* Job Description Input */}
         <div className="mb-6">
           <label htmlFor="job-description" className="block text-gray-700 text-sm font-semibold mb-2">
             <FileText className="inline-block w-4 h-4 mr-2 text-purple-500" /> Paste Job Description
@@ -110,7 +101,6 @@ function App() {
           />
         </div>
 
-        {/* Analyze Button */}
         <button
           onClick={handleSubmit}
           className="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 transition duration-300 flex items-center justify-center gap-2 text-lg disabled:opacity-50 disabled:cursor-not-allowed"
@@ -125,7 +115,6 @@ function App() {
           )}
         </button>
 
-        {/* Results Display */}
         {result && (
           <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-200 shadow-inner">
             <h2 className="text-xl font-bold mb-4 text-blue-700">Analysis Results</h2>
