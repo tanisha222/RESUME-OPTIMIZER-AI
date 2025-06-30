@@ -1,6 +1,6 @@
 # 📄 Resume Optimizer AI
 
-Your Personal AI-Powered Resume Tailoring Assistant
+Your Personal AI-Powered Resume Tailoring Assistant.
 This project is a full-stack web application designed to help job seekers optimize their resumes for specific job descriptions. By leveraging AI (Google's Gemini API), it analyzes the relevance of a resume against a given job description, identifies missing keywords, and provides actionable suggestions for improvement, significantly increasing the chances of passing initial screening filters.
 
 ---
