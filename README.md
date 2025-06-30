@@ -31,7 +31,16 @@ Other Tools
 
 📁 Folder Structure
 
-![image](https://github.com/user-attachments/assets/dc216016-e1ca-4490-88cf-f36f4bd1cbc9)
+Resume-Optimizer-AI/
+├── client/          # React frontend
+│   ├── App.jsx
+│   ├── App.css
+│   └── ...
+├── server/          # Node.js + Express backend
+│   ├── index.js
+│   ├── .env
+│   └── ...
+
 
 🔍 How It Works
 1. Upload a PDF resume
