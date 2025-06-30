@@ -13,8 +13,8 @@ This project is a full-stack web application designed to help job seekers optimi
 
 ## 📸 Demo
 
-> 📍  https://resume-optimizer-ai-pxcz.vercel.app/ (Frontend)
-> ⚙️  https://resume-optimizer-ai-dcqv.onrender.com (Backend)
+1. 📍  https://resume-optimizer-ai-pxcz.vercel.app/ (Frontend)
+2. ⚙️  https://resume-optimizer-ai-dcqv.onrender.com (Backend)
 ---
 
 ## 📌 Features
