@@ -8,8 +8,8 @@ This project is a full-stack web application designed to help job seekers optimi
 ![image](https://github.com/user-attachments/assets/ce1df345-3a96-47ea-ab86-d9a77621e53b)
 
 🚀 Live Demo
-1.🔗 https://resume-optimizer-ai-pxcz.vercel.app/
-2.🔗 https://resume-optimizer-ai-dcqv.onrender.com
+1. 🔗 https://resume-optimizer-ai-pxcz.vercel.app/
+2. 🔗 https://resume-optimizer-ai-dcqv.onrender.com
 
 ✨ Features  
 1. 📄 Upload your resume in PDF format  
