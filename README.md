@@ -8,24 +8,16 @@ This project is a full-stack web application designed to help job seekers optimi
 ![image](https://github.com/user-attachments/assets/ce1df345-3a96-47ea-ab86-d9a77621e53b)
 
 🚀 Live Demo
-
-🔗 https://resume-optimizer-ai-pxcz.vercel.app/
-
-🔗 https://resume-optimizer-ai-dcqv.onrender.com
+*🔗 https://resume-optimizer-ai-pxcz.vercel.app/
+*🔗 https://resume-optimizer-ai-dcqv.onrender.com
 
 
 ✨ Features
-
-📄 Upload your resume in PDF format  
-
-🧾 Paste any job description
-
-📊 AI-generated match percentage
-
-❌ View missing keywords not found in your resume
-
-✅ Receive 3 intelligent suggestions from Google's Gemini
-
+*📄 Upload your resume in PDF format  
+*🧾 Paste any job description
+*📊 AI-generated match percentage
+*❌ View missing keywords not found in your resume
+*✅ Receive 3 intelligent suggestions from Google's Gemini
 
 🛠️ Technologies Used
 | Frontend     | Backend           | AI Integration                  |
@@ -34,16 +26,12 @@ This project is a full-stack web application designed to help job seekers optimi
 | Tailwind CSS | multer, pdf-parse |                                 |
 | Axios        | dotenv, cors      |                                 |
 
-
 Other Tools:
-
-Vercel (Frontend Hosting)
-
-Render (Backend Hosting)
-
+*Vercel (Frontend Hosting)
+*Render (Backend Hosting)
 
 📁 Folder Structure
-Resume-Optimizer-AI/
+*Resume-Optimizer-AI/
 ├── resume-optimizer-ai/         # React frontend
 │   ├── App.jsx
 │   ├── App.css
