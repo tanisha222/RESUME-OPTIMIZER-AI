@@ -11,11 +11,12 @@ This project is a full-stack web application designed to help job seekers optimi
 🔗 https://resume-optimizer-ai-dcqv.onrender.com
 
 ✨ Features
-1.📄 Upload your resume in PDF format
-2.🧾 Paste any job description
-3.📊 AI-generated match percentage
-4.❌ View missing keywords not found in your resume
-5.✅ Receive 3 intelligent suggestions from Google's Gemini
+📄 Upload your resume in PDF format  
+
+🧾 Paste any job description
+📊 AI-generated match percentage
+❌ View missing keywords not found in your resume
+✅ Receive 3 intelligent suggestions from Google's Gemini
 
 🛠️ Technologies Used
 | Frontend     | Backend           | AI Integration                  |
