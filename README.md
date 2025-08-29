@@ -13,7 +13,7 @@ This project is a full-stack web application designed to help job seekers optimi
 
 ## 📸 Demo
 
-1. 📍  resume-optimizer-ai-pxcz-git-main-tanishas-projects-e02383e9.vercel.app (Frontend)
+1. 📍  https://resume-optimizer-ai-pxcz.vercel.app/ (Frontend)
 2. ⚙️  https://resume-optimizer-ai-dcqv.onrender.com (Backend)
 ---
 
