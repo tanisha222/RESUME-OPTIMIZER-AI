@@ -13,8 +13,8 @@ This project is a full-stack web application designed to help job seekers optimi
 
 ## 📸 Demo
 
-1. 📍  https://resume-optimizer-ai-pxcz.vercel.app/ (Frontend)
-2. ⚙️  https://resume-optimizer-ai-dcqv.onrender.com (Backend)
+1. 📍  https://bajaj-full-stack-challenge-mngy.vercel.app/ (Frontend)
+2. ⚙️  https://bajaj-full-stack-challenge-2.onrender.com (Backend)
 ---
 
 ## 📌 Features
